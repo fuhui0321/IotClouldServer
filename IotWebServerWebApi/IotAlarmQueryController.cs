@@ -34,7 +34,7 @@ namespace IotCloudService.IotWebServerWebApi
 
             //git test            
 
-
+            //////////////////////////////
 
 
             return HttpResponseExtension.toJson(JsonConvert.SerializeObject(queryResult));
