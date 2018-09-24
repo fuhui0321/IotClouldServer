@@ -31,10 +31,10 @@ namespace IotCloudService.IotWebServerWebApi
             queryResult.ResultCode = QueryResultCodeEnum.QUERY_SUCCESS;
             queryResult.QueryData = queryAlarm;
 
+            // 测试一
 
-            //git test            
 
-            //////////////////////////////
+     
 
 
             return HttpResponseExtension.toJson(JsonConvert.SerializeObject(queryResult));
